@@ -1,1 +1,36 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #0000ff;
+  text-align: center;
+  color: #ffffff;
+
+  .a-footer {
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+}
+
+.container-form {
+  margin-top: 18px;
+}
+
+.form-control {
+  margin-bottom: 18px;
+}
+
+.label-form {
+  margin-bottom: 6px;
+}
+
+.btn-danger, .btn-info {
+  margin-left: 10px;
+}
